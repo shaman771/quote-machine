@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 128 127.99999"
+   height="128"
+   width="128">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-98.415001,-416.77963)"
+     id="layer1">
+    <text
+       transform="scale(-0.96917453,-1.0318059)"
+       id="text4136"
+       y="-260.87482"
+       x="-238.73497"
+       style="font-style:normal;font-weight:normal;font-size:210.44528198px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#87aade;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:306.89935303px;font-family:Mallige;-inkscape-font-specification:Mallige;fill:#87aade"
+         y="-260.87482"
+         x="-238.73497"
+         id="tspan4142">&quot;</tspan></text>
+    <text
+       transform="scale(0.96917453,1.0318059)"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:210.44528198px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#5f8dd3;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="96.939758"
+       y="670.10498"
+       id="text4144"><tspan
+         id="tspan4146"
+         x="96.939758"
+         y="670.10498"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:306.89935303px;font-family:Mallige;-inkscape-font-specification:Mallige;fill:#5f8dd3">&quot;</tspan></text>
+  </g>
+</svg>

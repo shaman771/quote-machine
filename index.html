@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>Random Quote Machine (A FreeCodeCamp Project)</title>
+
+      <!-- Bootstrap -->
+      <link rel="stylesheet"
+      	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      	crossorigin="anonymous">
+
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Forum|Special+Elite" rel="stylesheet">
+      
+      <!-- Favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+      <link rel="manifest" href="site.webmanifest">
+      <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#2b5797">
+      <meta name="theme-color" content="#ffffff">
+      <link rel="stylesheet" href="rqm.css">
+      
+   </head>
+   <body>
+   
+      <article>
+         <header>
+           <div class="container">
+              <h1><img width="48" height="48" src="quotes.svg" alt="Colored quote marks facing each other"> Random Quote Machine</h1>
+           </div>
+         </header>
+
+         <div class="container content">
+           
+            <p>Being able to fetch a piece of wisdom, opinion, explanation, philosophical reflection or witticism once masterfully put into words by a famous or prominent person, and doing so at random, does have its fascination. Somehow, we tend to ascribe some hidden importance or secret meaning to the words, as if, 
+            magically, they really have anything to do with that particular moment of our life...</p>
+            
+            <p class="standout">Click the button below to get a new quote. Happy reading! :)</p>
+            <div class="callout">
+                  
+               <blockquote>
+                  <p id="quote" class="quote-text"></p>
+                  <p><span id="author" class="quote-author"></span> on <span id="category" class="quote-cat"></p>
+               </blockquote>
+               
+               <!-- Social share buttons -->         
+               <ul class="share-btns">
+                  <li><a class="twitter-share" href="" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                  <li><a class="tumblr-share" href="" target="_blank"><i class="fab fa-tumblr-square"></i></a></li>
+               </ul>
+               
+               <button id="newQuote" class="action-btn">Get a new quote</button>
+            
+            </div>
+          </div>
+      </article>
+
+      <footer class="container p-5 text-center">
+        <address>Made by shaman771 in 2018</address>
+        <small>Images by: Gellinger, Free-Photos, ArtsyBee @ <a href="https://pixabay.com">Pixabay.com</a></small>
+      </footer>
+   
+      <!-- jQuery -->
+   	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   	<script src="rqm.js"></script>
+   </body>
+</html>
