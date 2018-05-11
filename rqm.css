@@ -31,11 +31,6 @@ article {
   color: #495057;
 }
 
-article .standout {
-  color: #6c757d;
-  text-align: center;
-  margin: 2rem 0;
-}
 .content {
   padding: 1rem 2rem;
 }
@@ -45,14 +40,12 @@ article .standout {
 }
 .callout {
   padding: 1.5rem 4rem;
-}
-
-.callout {
   background: #e9ecef url('paper_bg.jpg') no-repeat no-repeat top center;
   border-radius: 8px;
   -webkit-box-shadow: 0 0 10px 0px #adadad;
           box-shadow: 0 0 10px 0px #adadad;
   border: 1px solid #bbbbbd;
+  margin-bottom: 1rem;
 }
 
 blockquote {
@@ -135,23 +128,55 @@ blockquote {
 }
 
 /* Bootstrap responsive breakpoints */
-
-@media (max-width: 575.98px) {
-  .content {
-    padding: 1rem 2rem;
-  }
-  .content > p {
-    padding: 0 1rem;
-    font-size: .9em;
-  }
-  .callout {
-    padding: 1rem 3rem;
-  }
-}
-
 @media (max-width: 767.98px) {
   header h1 {
     text-align: center;
+  }
+  .callout {
+    padding: 2rem 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .content {
+    padding: 1rem;
+  }
+  .content > p {
+    padding: 0;
+    font-size: .8em;
+  }
+  .callout {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+  }
+  header {
+    margin-bottom: 1rem;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+  .quote-text {
+    font-size: 1.2em;
+  }
+  .quote-text::before {
+    left: -.45em;
+    top: -.45em;
+  }
+  .quote-text::after {
+    bottom: -.6em;
+    margin-left: 0;
+  }
+  .byword {
+    display: none;
+  }
+}
+@media (max-width: 319.98px) {
+  .container {
+    min-width: 320px;
+  }
+  .callout {
+    padding: 1rem 2rem;
+    margin-bottom: 0;
   }
 }
 
@@ -164,5 +189,6 @@ blockquote {
   }
   .callout {
     padding: 4rem 8rem;
+    margin-bottom: 2rem;
   }  
 }
